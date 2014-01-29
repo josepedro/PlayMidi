@@ -12,6 +12,10 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
+		
+		
+		
+		
 		try {
 			File saveFile = new File("MidiFiles/testMidifile.mid");
 			if (saveFile.createNewFile()) {
@@ -25,8 +29,8 @@ public class Main {
 					(byte) 0x01, (byte) 0x00, (byte) 0x80, (byte) 0x4D,
 					(byte) 0x54, (byte) 0x72, (byte) 0x6B, (byte) 0x00,
 					(byte) 0x00, (byte) 0x00, (byte) 0x0B, (byte) 0x00,
-					(byte) 0xC1, (byte) 0x47, (byte) 0x00, (byte) 0x91,
-					(byte) 0xB5, (byte) 0xFF, (byte) 0x00, (byte) 0xFF,
+					(byte) 0xC1, (byte) 0x40, (byte) 0x00, (byte) 0x91,
+					(byte) 0x45, (byte) 0xFF, (byte) 0x00, (byte) 0xFF,
 					(byte) 0x2F, (byte) 0x00 };
 			
 			for (int midiSlot = 0; midiSlot < midiBytes.length; midiSlot++) {
