@@ -17,7 +17,7 @@ public class AssemblerMidi {
 		this.note = note;
 	}
 	
-	public byte[] assemblyMidi(){
+	public byte[] getassemblyMidi(){
 		if (note == "la4") {
 			return la4bytes;
 		}
