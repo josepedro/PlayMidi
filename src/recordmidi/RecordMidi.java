@@ -5,15 +5,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class RecordMidi {
-	
+
 	private byte[] midiBytes;
-	
-	public RecordMidi(byte[] midiBytes) {
+	private String noteName;
+
+	public RecordMidi(byte[] midiBytes, String noteName) {
 		this.midiBytes = midiBytes;
+		this.noteName = noteName;
 	}
-	
-	public void saveFile() throws IOException{
-		File saveFile = new File("MidiFiles/testMidifile.mid");
+
+	public void saveFile() throws IOException {
+		File saveFile = new File("MidiFiles/" + this.noteName + ".mid");
 		if (saveFile.createNewFile()) {
 			System.out.println("\n\nNovo arquivo criado");
 		}
@@ -24,5 +26,5 @@ public class RecordMidi {
 		midiFile.close();
 		System.out.println("Sucesso");
 	}
-	
+
 }

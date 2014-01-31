@@ -33,7 +33,7 @@ public class MyFFT {
 	private byte[] songInByte;
 	private float[] songInFloat;
 	private float energy;
-	
+
 	public MyFFT() {
 
 		// Preenchendo a matriz notas por 0's
