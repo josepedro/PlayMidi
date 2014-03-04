@@ -3,11 +3,6 @@
 	 Quero: preparar o detector de notas para detectar diferentes notas em diferentes oitavas;
 	 Para: poder reconhecer diferentes tipos de notas afim de escrevê-las no arquivo MIDI
 
-2 - Gravar tipos diferentes de notas no arquivo MIDI
-	Como: programador;
-    	Quero: poder gravar diferentes tipos de notas no arquivo MIDI;
-    	Para:  poder ouvir diferentes tipos de notas no arquivo midi;
-
 3 - Estudar wavelets
 	Como: programador;
 	Quero: estudar e aprender wavelets;
@@ -16,4 +11,4 @@
 4 - Escutar o solo digitalizado
 	Como: ouvinte;
 	Quero: escutar o solo digitalizado tocado;
-	Para: apreciar um bom solo e abrir mais 
+	Para: apreciar um bom solo e abrir mais campos de possibilidades;
